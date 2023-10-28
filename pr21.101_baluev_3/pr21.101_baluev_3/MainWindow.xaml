@@ -1,0 +1,23 @@
+﻿<Window x:Class="pr21._101_baluev_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr21._101_baluev_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Балуев - вариант 3" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="18px"/>
+        <TextBox HorizontalAlignment="Left" Margin="76,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="LightBlue" FontSize="18px" Name="tb_input"/>
+        <Label Content="Ввод" FontSize="18px" HorizontalAlignment="Left" Margin="76,67,0,0" VerticalAlignment="Top"/>
+        <Label Name="l_result_standart" Content="result" HorizontalAlignment="Left" Margin="101,231,0,0" VerticalAlignment="Top" FontSize="18px"/>
+        <Button Content="ОТПРАВИТЬ" HorizontalAlignment="Left" Margin="76,137,0,0" VerticalAlignment="Top" FontSize="16px" Padding="15px 5px" Name="btn_send" Click="btn_send_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="248,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="LightBlue" FontSize="18px" x:Name="tb_input_min"/>
+        <Label Content="Диапазон" FontSize="18px" HorizontalAlignment="Left" Margin="201,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="min" FontSize="18px" HorizontalAlignment="Left" Margin="203,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="max" FontSize="18px" HorizontalAlignment="Left" Margin="203,147,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="248,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="LightBlue" FontSize="18px" x:Name="tb_input_max"/>
+        <Label x:Name="l_result_sort" Content="result" HorizontalAlignment="Left" Margin="266,231,0,0" VerticalAlignment="Top" FontSize="18px"/>
+
+    </Grid>
+</Window>
